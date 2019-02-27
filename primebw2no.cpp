@@ -13,7 +13,7 @@ for(int i=n1+1;i<n2;i++)
 		count++;
 	}
 	if(count==0)
-	cout<<i<<"";
+	cout<<i<<" ";
 }
 return 0;
 }
