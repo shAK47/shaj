@@ -15,4 +15,3 @@ else
 	cout<<"yes";
 return 0;
 }
-pr
