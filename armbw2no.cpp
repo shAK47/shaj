@@ -14,7 +14,7 @@ while(m>0)
 	m=m/10;
 }
 if(s==n)
-	cout<<s<<" ";
+	cout<<s<<"";
 }
 return 0;
 }
