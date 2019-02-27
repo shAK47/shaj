@@ -1,6 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+
+int main()
 {
 char a;
 cin>>a;
@@ -13,4 +14,6 @@ if((a >='a' && a <='z') || (a >='A' && a <='Z'))
 }
 else
   cout<<"Invalid";
+	// your code goes here
+return 0;
 }
