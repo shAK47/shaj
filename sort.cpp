@@ -19,6 +19,6 @@ for(i=0;i<n;i++)
 	}
 }
 for(i=0;i<n;i++)
-cout<<a[i]<<"";
+cout<<a[i]<<" ";
 return 0;
 }
