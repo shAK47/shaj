@@ -6,8 +6,8 @@ int n,m;
 cin>>n;
 m=n/2;
 if(m!=0)
-	cout<<"YES";
+	cout<<"Yes";
 else
-	cout<<"NO";
+	cout<<"No";
 return 0;
 }
