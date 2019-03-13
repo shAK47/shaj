@@ -1,0 +1,22 @@
+#include <iostream>
+#include<string.h>
+using namespace std;
+
+int main() {
+int i,j,start,end,count=0,c=0;
+cin>>start>>end;
+for(i=start;i<=end;i++)
+{
+	if(i==2)
+		count++;
+	for(j=2;j<i;j++)
+	{
+		if(i%j==0)
+    		c++;
+	}
+	if(c==0)
+		count++;
+}
+cout<<count;
+return 0;
+}
