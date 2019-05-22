@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-int i,j,n,a[10],temp;
+int i,j,n,a[10],t;
 cin>>n;
 for(i=0;i<n;i++)
 cin>>a[i];
@@ -12,9 +12,9 @@ for(i=0;i<n;i++)
 	{
 		if(a[i]>a[j])
 		{
-			temp=a[i];
+			t=a[i];
 			a[i]=a[j];
-			a[j]=temp;
+			a[j]=t;
 		}
 	}
 }
